@@ -114,10 +114,10 @@ export default class Map extends Component {
 							<Marker 
 								coordinate={ destination } 
 								anchor={{ x:0, y:0 }} 
-								image:{ markerImage } 
-							/>
+								image={ markerImage } 
+							>
 								<LocationBox>
-									<LocationText>{destination.title}</LocationText
+									<LocationText>{destination.title}</LocationText>
 								</LocationBox>
 							</Marker>
 
@@ -125,13 +125,13 @@ export default class Map extends Component {
 							<Marker 
 								coordinate={ region } 
 								anchor={{ x:0, y:0 }} 
-							/>
+							>
 								<LocationBox>
 									<LocationTimeBox>
-										<LocationTimeTex>{ duration }</LocationTimeText>
+										<LocationTimeText>{ duration }</LocationTimeText>
 										<LocationTimeTextSmall>MIN</LocationTimeTextSmall>
 									</LocationTimeBox>
-									<LocationText>{ location }</LocationText
+									<LocationText>{ location }</LocationText>
 								</LocationBox>
 							</Marker>
 

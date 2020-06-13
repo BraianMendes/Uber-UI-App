@@ -14,7 +14,7 @@ export default class Details extends Component {
 			<TypeTitle>TsunamiX</TypeTitle>
 			<TypeDescription>R$ DE GRAÇA</TypeDescription>
 
-			<RequestButton onPress={{() => {}}}>
+			<RequestButton onPress={() => {}}>
 				<RequestButtonNext>Chamar o Tsunami</RequestButtonNext>
 			</RequestButton>
 		</Container>
